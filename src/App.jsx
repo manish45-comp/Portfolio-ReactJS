@@ -1,7 +1,7 @@
 import "./App.css";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-import Navbar from "./Components/Navbar/Navbar";
+
 import Work from "./Components/WORK/Work";
 import About from "./Components/ABOUT/About";
 import Skills from "./Components/SKILLS/Skills";
@@ -10,6 +10,7 @@ import Footer from "./Components/FOOTER/Footer";
 import NotFound from "./Components/NOTFOUNDPAGE/NotFound";
 import ThemeToggle from "./Components/BUTTONS/ThemeBtn";
 import ReactProject from "./Components/ReactProject";
+import CustomNavbar from "./Components/NAVBAR/CustomNavbar";
 
 function App() {
   const location = useLocation();
@@ -17,7 +18,7 @@ function App() {
     <>
       <div className="app-container">
         <ThemeToggle />
-        <Navbar />
+        <CustomNavbar />
         <AnimatePresence mode="wait" initial={false}>
           <Routes location={location} key={location.pathname}>
             <Route index element={<Work />} />

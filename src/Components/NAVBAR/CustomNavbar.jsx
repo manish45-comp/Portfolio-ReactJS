@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import "./styles.css";
 import { tabs } from "../../Data/Data";
 
-const Navbar = () => {
+const CustomNavbar = () => {
   const [background, setBackground] = useState(false);
 
   useEffect(() => {
@@ -46,4 +46,4 @@ export const NavbarItem = (props) => {
   );
 };
 
-export default Navbar;
+export default CustomNavbar;
