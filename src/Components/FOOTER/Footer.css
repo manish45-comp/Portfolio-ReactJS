@@ -1,0 +1,10 @@
+.footer {
+  z-index: 9999;
+  margin: calc(5% + 1vh) 0;
+}
+.music {
+  background-color: var(--color-green500);
+}
+.music .bodyText {
+  color: var(--color-beige);
+}

@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* custom fonts */
+@font-face {
+  font-family: TitleFont;
+  src: url("./fonts/YoungSerif-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: TextFont;
+  src: url("./fonts/Mulish-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: NavText;
+  src: url("./fonts/Mulish-Medium.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: BoldText;
+  src: url("./fonts/Mulish-Black.ttf") format("truetype");
+  font-weight: bold;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* transition: all 0.6s cubic-bezier(0, 0.55, 0.45, 1); */
+}
+body,
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+li {
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: var(--text-primary);
+}
+.wrapper {
+  max-width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+section {
+  margin-top: clamp(2.183rem, 2rem + 15vh, 20rem);
+}
+
+.title {
+  font-family: "TitleFont";
+  font-size: clamp(2.183rem, 0.2rem + 7vw, 13.75rem);
+  font-weight: bold;
+  color: var(--text-primary);
+  line-height: 110%;
+  display: block;
+}
+.subtitle {
+  font-family: "TitleFont";
+  font-size: clamp(1.875rem, 1.301rem + 2.449vw, 3rem);
+  font-weight: bold;
+  color: var(--text-primary);
+  line-height: 140%;
+  display: block;
+}
+.subtitle-secondary {
+  font-family: "TextFont";
+  font-size: clamp(1.375rem, 1.1837rem + 0.8163vw, 2rem);
+  color: var(--text-primary);
+  font-weight: 700;
+}
+.bodyText {
+  font-family: "TextFont";
+  font-size: clamp(1rem, 0.8rem + 0.3vw, 1.375rem);
+  line-height: 160%;
+  color: var(--color-green500);
+  display: block;
+  font-weight: bold;
+}
+.navText {
+  font-family: "NavText";
+  font-size: clamp(0.875rem, 0.7985rem + 0.3265vw, 1.04rem);
+  font-weight: bold;
+  color: var(--text-secondary);
+  display: block;
+  letter-spacing: 1.3px;
+}
+.cardText {
+  font-family: "TextFont";
+  font-size: clamp(1rem, 0.9235rem + 0.3265vw, 1.25rem);
+  color: var(--text-primary);
+  display: block;
+  font-weight: 700;
+}
