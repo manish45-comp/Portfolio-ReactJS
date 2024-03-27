@@ -22,7 +22,7 @@ export const technologies = [
     text: "Discover",
     title: "React JS",
     link: "/react",
-    imgLink: "../../src/images/React-Card.png",
+    imgLink: "https://i.ibb.co/hYcBGGV/React-Card.png",
     colWidth: "1",
     order: "1",
   },
