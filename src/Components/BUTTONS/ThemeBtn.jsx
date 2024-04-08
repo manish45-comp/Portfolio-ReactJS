@@ -41,7 +41,7 @@ const ThemeBtn = () => {
           id="theme-input"
           className="m-2"
           type="checkbox"
-          onClick={() => {
+          onChange={() => {
             setIcon(
               icon === "fa-sun text-amber-500"
                 ? "fa-moon"

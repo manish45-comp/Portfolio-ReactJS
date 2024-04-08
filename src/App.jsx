@@ -1,35 +1,40 @@
 import "./App.css";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
+import { lazy } from "react";
 
-import Work from "./Components/WORK/Work";
-import About from "./Components/ABOUT/About";
-import Skills from "./Components/SKILLS/Skills";
-import Notes from "./Components/NOTES/Notes";
-import Footer from "./Components/FOOTER/Footer";
-import NotFound from "./Components/NOTFOUNDPAGE/NotFound";
-import ThemeToggle from "./Components/BUTTONS/ThemeBtn";
-import ReactProject from "./Components/ReactProject";
-import CustomNavbar from "./Components/NAVBAR/CustomNavbar";
+const ReactProject = lazy(() => import("./Components/ReactProject.jsx"));
+const WorkComponent = lazy(() => import("./Components/WORK/Work.jsx"));
+const AboutComponent = lazy(() => import("./Components/ABOUT/About.jsx"));
+const SkillsComponent = lazy(() => import("./Components/SKILLS/Skills.jsx"));
+const NotesComponent = lazy(() => import("./Components/NOTES/Notes.jsx"));
+const FooterComponent = lazy(() => import("./Components/FOOTER/Footer.jsx"));
+const NotFoundComponent = lazy(() =>
+  import("./Components/NOTFOUNDPAGE/NotFound.jsx")
+);
+const ThemeToggleComponent = lazy(() =>
+  import("./Components/BUTTONS/ThemeBtn.jsx")
+);
+
+import CustomNavbar from "./Components/NAVBAR/CustomNavbar.jsx";
 
 function App() {
   const location = useLocation();
   return (
     <>
       <div className="app-container">
-        <ThemeToggle />
+        <ThemeToggleComponent />
         <CustomNavbar />
         <AnimatePresence mode="wait" initial={false}>
           <Routes location={location} key={location.pathname}>
-            <Route index element={<Work />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/play" element={<Skills />} />
-            <Route path="/note" element={<Notes />} />
-            <Route path="/react" element={<ReactProject />} />
-            <Route path="*" element={<NotFound />} />
+            <Route index element={<WorkComponent />} />
+            <Route path="/about" element={<AboutComponent />} />
+            <Route path="/play" element={<SkillsComponent />} />
+            <Route path="/note" element={<NotesComponent />} />
+            <Route path="*" element={<NotFoundComponent />} />
           </Routes>
         </AnimatePresence>
-        <Footer />
+        <FooterComponent />
       </div>
     </>
   );

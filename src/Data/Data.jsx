@@ -22,7 +22,8 @@ export const technologies = [
     text: "Discover",
     title: "React JS",
     link: "/react",
-    imgLink: "https://i.ibb.co/hYcBGGV/React-Card.png",
+    imgLink:
+      "https://lh3.googleusercontent.com/fife/ALs6j_EdM609yT6jz0TK9d-JHF1R5URWU8_w9UY3fkWfbZzusR8QSFzOurlFIpQQrHkW7CSRs2ddtElku5cevl4JB8W8f3aiwSLrDZMcovnyBFFCHoVpOHTX9evrWNUcGRlYZPd6paV4qinR5-XiLi05h7ufGpffzyTbq-wNgKxiR-s0CwkNDOfZMydM4ooApg3XN-6LyefI9-fsioNLZC9ypCNI4NB-ZXGvyIukD5zJe16Sf4rTyuHoMarCgVufr3THRL6aT10a54GilbdTnYldgmJpxHC7WyTy-h9IuUM-HAzdJ0LBjb92xgj7C9DNuZd34-CRWskspL4oJCtUAXw-s75rry3n9AQcPvRO6trAgYtpp4OD8hcuaYNHOj2zrWA3u4lrJDnUMjh_N8W4RoFhhvWQURgWyKjq5PUWyAArifYYJePH305SY5sdnBknZ31J0_OlXlKE1sGnjPMWB19P5ewpipomVsQUrekn2b8hsxAOJ1pjC8lE5lU2NFb2X2d8ddOKtVn4sKa4RhB3Q8RkQmrNcxjbnO1oeI7Wu7TooeO57w7T-QmeVhhD3ek74qTEyams5CLSoDNcnKrwXfu5bbSABdLmZBG56xeJhvAYzXVRIusCi9FlTIoYxgzE3wXmVAR5TrCNMkHa9kJsBQAlJKx4sNwbdkO8qVpCyZBPHOP2c-EzJxbskmxdgf6KHgAjyvubqC6ATMn4kfeo4ck8RwGVCIrL5gzP5EBlUb0uXSuBtMQW64tMiJ8elzSpOTCdib4wtday28ocPIXndA3v-A5taY0LhmPbdciRHQB28Pn6qLUGkn31HH6tpszIjyOXNnPyoIKJgsBgrAvrwOwHyh0STeBu5d_5A1_WM0zHvkrEtGcUBdUlbcX0P15rfPwJIjs1v1X0LAVy1bmciRlq6oObOIwGk6AYk5w8KKpomCHZvoLogGMTbkuSfPsxQF9cTsquCj0nZJgN3H5Vk6cva-ozxlnKxxqWde_vgUJgRHEfx8JTCWvoqZVZ0F6em4ZGEegYWqIJW4o2ynDR9i5J71xsCvPFY3zfHuKzXm_vGeQ-glhoxvwSYtkHDd4c-Layv-WkSddNPOxXtvkiODP57OGGuiybjs4MkUhhWNFZzbMkA1TINIXBptkXfjsV0wjbp4q2vDCqPrs0A51vwoOXRA0Ft6IgTlf7ceKHXuRQ-fReGYtRoPObQzg5eA9i-o49JnyKa-RPVXIMdRLLF2Cooa8W7CuqlX-McBwcliPOb9PVuP-hN_w4SfMLGHIqbJ2g_cDQDWxjyK2N5htaps2uD1eCCwpxsPrMMlju-qsN014HtiyiCYRGCrQlAkUHycYV2XMG4Q0a_BQB8aAqYoBHImagRlGdym77g7rsKo_v4Ixr7OZKa2Cjpin10nxPryqpp6Mw29aSzV2Yv4vlAHdW1hdGvD14nXm55hrTKYZCufwjqTvaRgAWFNulC9rhBG9Nt-bVkrShHh4Su4dVR-zd78C-Aq3_gaQvjhL8FnSoL91soBILs1aqrpYL6-OMYTR4b3yuA06zVNZHm2eLLZ98gV1Ue4oPrXtbA8U4TDsBE_psZvzL9vjq3q-OLsjfIrHQpwWabTjMrPcnZCXnPnBdaVhwRyx41jyWaxF0Y5abmDW91ephqIhOwzg=w1920-h957",
     colWidth: "1",
     order: "1",
   },
@@ -31,7 +32,8 @@ export const technologies = [
     text: "Explore",
     title: "Spring Boot",
     link: "/spring",
-    imgLink: "../../src/images/SpringBoot-Card.png",
+    imgLink:
+      "https://lh3.google.com/u/0/d/1v3V68Mgmn7-iramCdvWFtBmOCxP2QKDJ=w1920-h489-iv1",
     colWidth: "2",
     order: "2",
   },
@@ -40,7 +42,8 @@ export const technologies = [
     text: "Reveal",
     title: "HTML-CSS-JS",
     link: "/html-css",
-    imgLink: "../../src/images/Web-Design-Card.png",
+    imgLink:
+      "https://lh3.google.com/u/0/d/1pgRPwRvb3I_6IiU1pambrYp9B-Hsgd2y=w1920-h489-iv1",
     colWidth: "2",
     order: "4",
   },
@@ -49,7 +52,8 @@ export const technologies = [
     text: "Uncover",
     title: "React Native",
     link: "/react-native",
-    imgLink: "../../src/images/ReactNative-Card.png",
+    imgLink:
+      "https://lh3.googleusercontent.com/fife/ALs6j_Gzh5ClZEdqJwbkAo5i6NSBp7xWstTy9Dlb4EXIwsxtIygNXFylpU3uj4FBiT1zvZm-_qpLyEGRclXSuZJBJYOVLuLYWUT3VNPumXHepdpzqIY8peD0NwxeMeOrZrcXbG186KYr_wMzjVTUudh_0wPUC4Eb5d14EYkf3T-9rbjjMpYJo4zsP5WC5Z4AF7ZzFI1aDCmXSQDTmwdJ5OdrB5OvuEwoRYMu4gBUKDz0TZUW4RsHqZfduNMOrs-fOCQyS5dzm2ccUhacpZKvbAna90Dr2FyVpBvZ6vhqU1Sdzm7NwhAh5RRRuBx56xaZxox_ym0d7JYguVUcOZlsUkOc0ftPugaFsYcfAnPlvGTGl5yUv7G6yZeJ0C-Cr2fWYM3qadFpd-a5Eqn_aPushPYk1s7fGXeru7lLbMUJHVSlUEGCyhzluZgvbis2tQvP-qm6prXGrWYZuriaTTsMB4_-NmvFwwdbXX2fQ42VdS4qw88MQokm-kygpTZ3qTxiuFnoT17rPBIQP1oIwRPwr7QoDCVlWQ_UYq1xzaISRiWF9fH8BQUvdFcY79dsgJH7cz2Z5nymVfQXHzPef3f6ZXa9E5ggMcgRYEAzHkcmK0teCJ5eqYjHDQ_oOijDbS8MYlfN1PhEDYNceDhoRsRmdf-h327_dvvlDjJqng_syCK_Yz3cG3z9xPhuwjoGl2HGGIjHbrbA5TjRMqb87gBD4__F12cqyZHi04IWp0W6eiZpURcxpdTNNaiPpqcu7OdLCZeKatFMAx9pkGt6TaWWmCAg3n4-Pb9IEkS7jiuXYXsMepk9mjDL4jBQ9vk7n7xKIxFVyoBWRzR2YLxiezSQg3JZxLwu4ooonSO40aoqSyCpvRjV1fmZ7I-a2nlLh8DMWfbBwElH58Fx2DHZUby3ky-gY3Zg6WwvgmI5biflKtuA_PB9Ve8Vo4HFvUr03XxaM5tuvCXNO14guIHjSM6DUt7aXUy8wwWTR_gPREgxmBQq-98veTtmXIoja2qYfoMfWDZDxkM8yP-0TfuzAEXpNYcHXIO-FwwkmRC1h7LhVPSZP43vrgK-RcMQ7LCdU2YoYgK96itPm_YElHUCqHeWZ0loK3vKSqUUSko2Ffzevdt-rHpLscBfeFHCTU7ZxhLDasZYJrdn4TArT8TM-Id34_ZoKgHmpxSIeWOLnoV7zwNPLZwLB98T4_eq3H0rKeR3lvbN7fyNYIoWfDi37-EBrPqx1ELZAAIj4fjSzypLsNGWo07gw3ODfzEHYWmuxv7jwgS2wEkujjKM-NTqQ3U_7AorjLLY3rGuSV_BzHuNJLyoD_od8c_Y83BEzz1kE1VhjpFW-sT8UYIdqJ8poVdmb227Vf3hYg_ZZiUVNWunntURHX-5GIPP0Jm7Ug_SIMVSGI5Fra4FMN14Ni2EsbQyj2s5zkJ8cDGobWxs--V300mkL_hlGgWBIB-WR6ISAyU16IKguAoosn_7D4atXnuakzjPCo62i2Cbvc3gZFAGTQyEEG-OCfcCP9Ie1nSzreS4U8tITraUcSqCQZfMuOJasW4FEoALi9_5vppCWkJkUIKRNqUZAOjzFGjhhiXCb7RRqiA3Fh3K2stir6-OPXxCcYvl8hpc83fRJzREOqJt-j4KpeYxWHbqAJIfejQ=w1920-h489",
     colWidth: "1",
     order: "3",
   },
@@ -163,13 +167,13 @@ export const AboutME = [
 export const AboutImages = [
   {
     id: 1,
-    path: "../../src/images/mumbai.jpg",
+    path: "https://lh3.google.com/u/0/d/12gwi2UV7O4bXyO2D1MHV_OymCvjFMdF3=w1920-h957-iv1",
     location: "Gateway Of India, Mumbai",
     colWidth: "2",
   },
   {
     id: 2,
-    path: "../../src/images/chiku.jpg",
+    path: "https://lh3.google.com/u/0/d/10vjhNCV2NUhfBPd8AEXxM9pq8Ko_-JTf=w1920-h489-iv1",
     location: "Chiku, Varvand",
     colWidth: "1",
   },
@@ -181,7 +185,8 @@ export const skillsArray = [
     point: "HTML, CSS, and JavaScript Proficiency",
     title: "Code Craft",
     description: "Transforming code into digital enchantments.",
-    imgPath: "../../src/images/SkillsSvg/CodeCraft.png",
+    imgPath:
+      "https://lh3.google.com/u/0/d/1diLWRUYoXD8RCjMKw4CHmWEow_E0jqYZ=w958-h489-iv1",
     colWidth: "1",
     rowWidth: false,
   },
@@ -190,7 +195,7 @@ export const skillsArray = [
     point: "Responsive Design and Cross-Browser Compatibility",
     title: "Adaptability",
     description: "Morphing seamlessly to fit any tech landscape.",
-    imgPath: "../../src/images/SkillsSvg/adaptibility.svg",
+    imgPath: "https://drive.google.com/3f8c1dd7-02e9-452e-85c0-851b7b5a5504",
     colWidth: "1",
     rowWidth: false,
   },
@@ -199,7 +204,8 @@ export const skillsArray = [
     point: "Version Control/Git",
     title: "GitWizard",
     description: "Mastering intricate versions effortlessly.",
-    imgPath: "../../src/images/SkillsSvg/FinalGitHub.svg",
+    imgPath:
+      "blob:https://drive.google.com/3a53024a-7b09-46f8-aa35-77fa92e92924",
     colWidth: "1",
     rowWidth: true,
   },
@@ -208,7 +214,8 @@ export const skillsArray = [
     point: "Basic Design Skills/UI & UX Understanding:",
     title: "Design Alchemy",
     description: "Converting high-fidelity designs to low-fidelity charm.",
-    imgPath: "../../src/images/SkillsSvg/Design.svg",
+    imgPath:
+      "blob:https://drive.google.com/cab559fc-457c-4e1f-9820-0d9df0ea463e",
     colWidth: "1",
     rowWidth: false,
   },
