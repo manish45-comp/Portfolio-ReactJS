@@ -63,7 +63,8 @@ export const technologies = [
     text: "Uncover",
     title: "White",
     link: "/react-native",
-    imgLink: "../../src/images/ReactNative-Card.png",
+    imgLink:
+      "https://lh3.googleusercontent.com/fife/ALs6j_Gzh5ClZEdqJwbkAo5i6NSBp7xWstTy9Dlb4EXIwsxtIygNXFylpU3uj4FBiT1zvZm-_qpLyEGRclXSuZJBJYOVLuLYWUT3VNPumXHepdpzqIY8peD0NwxeMeOrZrcXbG186KYr_wMzjVTUudh_0wPUC4Eb5d14EYkf3T-9rbjjMpYJo4zsP5WC5Z4AF7ZzFI1aDCmXSQDTmwdJ5OdrB5OvuEwoRYMu4gBUKDz0TZUW4RsHqZfduNMOrs-fOCQyS5dzm2ccUhacpZKvbAna90Dr2FyVpBvZ6vhqU1Sdzm7NwhAh5RRRuBx56xaZxox_ym0d7JYguVUcOZlsUkOc0ftPugaFsYcfAnPlvGTGl5yUv7G6yZeJ0C-Cr2fWYM3qadFpd-a5Eqn_aPushPYk1s7fGXeru7lLbMUJHVSlUEGCyhzluZgvbis2tQvP-qm6prXGrWYZuriaTTsMB4_-NmvFwwdbXX2fQ42VdS4qw88MQokm-kygpTZ3qTxiuFnoT17rPBIQP1oIwRPwr7QoDCVlWQ_UYq1xzaISRiWF9fH8BQUvdFcY79dsgJH7cz2Z5nymVfQXHzPef3f6ZXa9E5ggMcgRYEAzHkcmK0teCJ5eqYjHDQ_oOijDbS8MYlfN1PhEDYNceDhoRsRmdf-h327_dvvlDjJqng_syCK_Yz3cG3z9xPhuwjoGl2HGGIjHbrbA5TjRMqb87gBD4__F12cqyZHi04IWp0W6eiZpURcxpdTNNaiPpqcu7OdLCZeKatFMAx9pkGt6TaWWmCAg3n4-Pb9IEkS7jiuXYXsMepk9mjDL4jBQ9vk7n7xKIxFVyoBWRzR2YLxiezSQg3JZxLwu4ooonSO40aoqSyCpvRjV1fmZ7I-a2nlLh8DMWfbBwElH58Fx2DHZUby3ky-gY3Zg6WwvgmI5biflKtuA_PB9Ve8Vo4HFvUr03XxaM5tuvCXNO14guIHjSM6DUt7aXUy8wwWTR_gPREgxmBQq-98veTtmXIoja2qYfoMfWDZDxkM8yP-0TfuzAEXpNYcHXIO-FwwkmRC1h7LhVPSZP43vrgK-RcMQ7LCdU2YoYgK96itPm_YElHUCqHeWZ0loK3vKSqUUSko2Ffzevdt-rHpLscBfeFHCTU7ZxhLDasZYJrdn4TArT8TM-Id34_ZoKgHmpxSIeWOLnoV7zwNPLZwLB98T4_eq3H0rKeR3lvbN7fyNYIoWfDi37-EBrPqx1ELZAAIj4fjSzypLsNGWo07gw3ODfzEHYWmuxv7jwgS2wEkujjKM-NTqQ3U_7AorjLLY3rGuSV_BzHuNJLyoD_od8c_Y83BEzz1kE1VhjpFW-sT8UYIdqJ8poVdmb227Vf3hYg_ZZiUVNWunntURHX-5GIPP0Jm7Ug_SIMVSGI5Fra4FMN14Ni2EsbQyj2s5zkJ8cDGobWxs--V300mkL_hlGgWBIB-WR6ISAyU16IKguAoosn_7D4atXnuakzjPCo62i2Cbvc3gZFAGTQyEEG-OCfcCP9Ie1nSzreS4U8tITraUcSqCQZfMuOJasW4FEoALi9_5vppCWkJkUIKRNqUZAOjzFGjhhiXCb7RRqiA3Fh3K2stir6-OPXxCcYvl8hpc83fRJzREOqJt-j4KpeYxWHbqAJIfejQ=w1920-h489",
     colWidth: "1",
     order: "1",
   },
@@ -72,7 +73,8 @@ export const technologies = [
     text: "Reveal",
     title: "Black",
     link: "/html-css",
-    imgLink: "../../src/images/Web-Design-Card.png",
+    imgLink:
+      "https://lh3.google.com/u/0/d/1pgRPwRvb3I_6IiU1pambrYp9B-Hsgd2y=w1920-h489-iv1",
     colWidth: "2",
     order: "2",
   },
