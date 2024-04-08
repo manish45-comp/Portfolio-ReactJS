@@ -21,7 +21,7 @@ const Play = () => {
               : "flex-col border justify-between items-center py-5"
           }`}
         >
-          <div className="text-start">
+          <div className="text-start p-2">
             <h5 className="cardText my-4">
               <span>{item.title}</span>
             </h5>

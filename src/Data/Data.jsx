@@ -189,6 +189,7 @@ export const skillsArray = [
     description: "Transforming code into digital enchantments.",
     imgPath:
       "https://lh3.google.com/u/0/d/1diLWRUYoXD8RCjMKw4CHmWEow_E0jqYZ=w958-h489-iv1",
+    fallBackImgPath: "../images/SkillsSvg/adaptibility.svg",
     colWidth: "1",
     rowWidth: false,
   },

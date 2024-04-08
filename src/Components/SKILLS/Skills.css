@@ -1,11 +1,11 @@
 .gridCard {
   background: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.02);
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.03);
   transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
   display: grid;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 .gridCard:hover {
   border: 1px solid var(--color-green400);
