@@ -197,7 +197,8 @@ export const skillsArray = [
     point: "Responsive Design and Cross-Browser Compatibility",
     title: "Adaptability",
     description: "Morphing seamlessly to fit any tech landscape.",
-    imgPath: "https://drive.google.com/3f8c1dd7-02e9-452e-85c0-851b7b5a5504",
+    imgPath:
+      "https://lh3.google.com/u/0/d/1DMXEa8T0bdDj3cqWlBpcJlz2qUFvP6qj=w1920-h957-iv1",
     colWidth: "1",
     rowWidth: false,
   },
@@ -207,7 +208,7 @@ export const skillsArray = [
     title: "GitWizard",
     description: "Mastering intricate versions effortlessly.",
     imgPath:
-      "blob:https://drive.google.com/3a53024a-7b09-46f8-aa35-77fa92e92924",
+      "https://lh3.google.com/u/0/d/1TO2y_3BDPvRw58oIJ6cxsLTaXpwa4StI=w1920-h438-iv1",
     colWidth: "1",
     rowWidth: true,
   },
@@ -217,7 +218,7 @@ export const skillsArray = [
     title: "Design Alchemy",
     description: "Converting high-fidelity designs to low-fidelity charm.",
     imgPath:
-      "blob:https://drive.google.com/cab559fc-457c-4e1f-9820-0d9df0ea463e",
+      "https://lh3.google.com/u/0/d/1CQYR-2tHxOdKk-sahIAofHaymyhoIQgu=w1920-h438-iv1",
     colWidth: "1",
     rowWidth: false,
   },
@@ -226,7 +227,8 @@ export const skillsArray = [
     point: "Backend Basics",
     title: "Backend Sorcery",
     description: "Summoning dynamic websites from the depths of data.",
-    imgPath: "../../src/images/SkillsSvg/FinalDatabase.svg",
+    imgPath:
+      "https://lh3.google.com/u/0/d/1R5xdSjfRMrunDqq3-jvFZOcAeX03KQrp=w2000-h744-iv1",
     colWidth: "1",
     rowWidth: true,
   },
@@ -235,7 +237,8 @@ export const skillsArray = [
     point: "Frameworks and Libraries:",
     title: "Frameworks",
     description: "Enchanting websites with powerful tools.",
-    imgPath: "../../src/images/SkillsSvg/FinalFramework.svg",
+    imgPath:
+      "https://lh3.google.com/u/0/d/10eXOWbdN9zSEFEHFyslGRDCSxv8SSJsQ=w2000-h744-iv1",
     colWidth: "1",
     rowWidth: true,
   },
@@ -244,7 +247,8 @@ export const skillsArray = [
     point: "Problem-Solving and Debugging",
     title: "Debug Master",
     description: "Banishing bugs, turning chaos into harmony.",
-    imgPath: "../../src/images/SkillsSvg/Debug.svg",
+    imgPath:
+      "https://lh3.google.com/u/0/d/1bTN-cu_UgCHAEYIlzko7k-qKNyow8rCV=w1920-h438-iv1",
     colWidth: "1",
     rowWidth: false,
   },
@@ -253,7 +257,8 @@ export const skillsArray = [
     point: "Security Best Practices:",
     title: "Safeguard",
     description: "Defending digital realms against dark forces.",
-    imgPath: "../../src/images/SkillsSvg/security.svg",
+    imgPath:
+      "https://lh3.google.com/u/0/d/1zrxjQW5aRwy-3kbterGZc1KhAkbRw3hu=w1920-h438-iv1",
     colWidth: "1",
     rowWidth: false,
   },
@@ -262,7 +267,8 @@ export const skillsArray = [
     point: "Continuous Learning and Adaptability: ",
     title: "Evolvability",
     description: "Embracing the never-ending journey of learning and growth.",
-    imgPath: "../../src/images/SkillsSvg/progress.svg",
+    imgPath:
+      "https://lh3.google.com/u/0/d/1u0KnI8o3yKB5DujvGDHPertTql6N6_gc=w1920-h438-iv1",
     colWidth: "1",
     rowWidth: false,
   },
