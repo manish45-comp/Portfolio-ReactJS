@@ -38,7 +38,7 @@
   --color-lilac: hsla(227, 65%, 87%, 1);
   --color-rust: hsla(22, 62%, 76%, 1);
   --color-pink: hsla(284, 61%, 74%, 1);
-  --color-beige: hsla(36, 31%, 90%, 1);
+  --color-beige: rgb(237, 231, 222);
   --spectrum-clay-400: #ded5d1;
   --spectrum-clay-500: #c2b4ac;
 
@@ -132,23 +132,10 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background: var(--color-beige);
+  background-color: var(--color-beige);
+  background: url("./images/backgroundGrid.png");
+  background-position: center;
 }
 .dark-theme .app-container {
   background: var(--color-green800);
 }
-
-/* .project-card {
-  color: var(--color-green800) !important;
-  font-weight: bold;
-  letter-spacing: 1px;
-  background-image: radial-gradient(
-    circle 311px at 8.6% 27.9%,
-    rgba(62, 147, 252, 0.57) 12.9%,
-    rgba(239, 183, 192, 0.44) 91.2%
-  );
-}
-.project-card:nth-child(2) {
-  background-color: #fbab7e;
-  background: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
-} */

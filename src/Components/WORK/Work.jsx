@@ -40,7 +40,7 @@ const Work = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3">
+          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3">
             <CardComponent data={technologies.slice(0, 4)} />
           </div>
 
@@ -62,7 +62,7 @@ const Work = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3">
+          <div className="grid md:grid-cols-1 lg:grid-cols-3">
             <CardComponent data={technologies.slice(4, 6)} />
           </div>
         </motion.section>

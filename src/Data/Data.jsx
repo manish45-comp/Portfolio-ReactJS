@@ -8,11 +8,27 @@ export const tabs = [
 export const FooterLink = [
   {
     title: "Elsewhere",
-    items: ["GitHub", "Linkedin", "Download Cv"],
+    items: [
+      { name: "GitHub", link: "https://github.com/manish45-comp" },
+      {
+        name: "Linkedin",
+        link: "https://www.linkedin.com/in/manish-bagal-5b2887135/",
+      },
+      {
+        name: "Download Cv",
+        link: "https://drive.google.com/file/d/1C_uCpYygXYgm3RcNgYe8hWQJmB8O5BwX/view?usp=sharing",
+      },
+    ],
   },
   {
     title: "Contact",
-    items: ["Message", "instagram"],
+    items: [
+      {
+        name: "Message",
+        link: "",
+      },
+      { name: "instagram", link: "https://www.instagram.com/m_k_bagal/" },
+    ],
   },
 ];
 

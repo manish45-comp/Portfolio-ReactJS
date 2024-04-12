@@ -51,10 +51,10 @@ const Footer = () => {
                       <li key={link}>
                         <Typography
                           as="a"
-                          href="#"
+                          href={link.link}
                           className="navText py-2 font-normal transition-colors"
                         >
-                          {link}
+                          {link.name}
                         </Typography>
                       </li>
                     ))}
