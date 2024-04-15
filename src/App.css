@@ -133,9 +133,8 @@
   flex-direction: column;
   min-height: 100vh;
   background-color: var(--color-beige);
-  background: url("./images/backgroundGrid.png");
-  background-position: center;
 }
+
 .dark-theme .app-container {
-  background: var(--color-green800);
+  background-color: var(--color-green800);
 }
