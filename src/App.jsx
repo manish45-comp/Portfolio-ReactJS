@@ -31,6 +31,9 @@ function App() {
             <Route path="/about" element={<AboutComponent />} />
             <Route path="/play" element={<SkillsComponent />} />
             <Route path="/note" element={<NotesComponent />} />
+            {/* inner pages */}
+            <Route path="/react" element={<ReactProject />} />
+            {/* fallback route */}
             <Route path="*" element={<NotFoundComponent />} />
           </Routes>
         </AnimatePresence>

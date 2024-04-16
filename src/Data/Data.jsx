@@ -46,20 +46,21 @@ export const technologies = [
   {
     id: 2,
     text: "Explore",
-    title: "Spring Boot",
-    link: "/spring",
+    title: "HTML CSS JavaScript",
+    link: "/html",
     imgLink:
-      "https://lh3.google.com/u/0/d/1v3V68Mgmn7-iramCdvWFtBmOCxP2QKDJ=w1920-h489-iv1",
+      "https://lh3.google.com/u/0/d/1pgRPwRvb3I_6IiU1pambrYp9B-Hsgd2y=w1920-h489-iv1",
+
     colWidth: "2",
     order: "2",
   },
   {
     id: 4,
     text: "Reveal",
-    title: "HTML-CSS-JS",
-    link: "/html-css",
+    title: "Spring Boot",
+    link: "/spring",
     imgLink:
-      "https://lh3.google.com/u/0/d/1pgRPwRvb3I_6IiU1pambrYp9B-Hsgd2y=w1920-h489-iv1",
+      "https://lh3.google.com/u/0/d/1v3V68Mgmn7-iramCdvWFtBmOCxP2QKDJ=w1920-h489-iv1",
     colWidth: "2",
     order: "4",
   },
@@ -301,20 +302,13 @@ export const transition = {
 
 export const Projects = [
   {
-    Title: "Zoom Clone",
-    label: "Basic",
-    Description:
-      "A basic-level ReactJS project that replicates the functionality of Zoom. It allows users to create new meetings, join existing ones, and communicate via audio and video.",
-    Category: "ReactJS",
-    value: "Basic",
-  },
-  {
     Title: "Weather WebApp",
     label: "Intermediate",
     Description:
       "An intermediate-level ReactJS project that provides real-time weather updates. Users can search for any city in the world and get current weather conditions along with a 5-day forecast.",
     Category: "ReactJS",
-    value: "Intermediate",
+    value: "Basic",
+    imgLink: "../../src/images/weatherapp.png",
   },
   {
     Title: "Movie Space",
@@ -323,5 +317,6 @@ export const Projects = [
       "An advanced-level ReactJS project that allows users to explore a vast universe of movies. Features include searching for movies, viewing detailed information about each movie.",
     Category: "ReactJS",
     value: "Advanced",
+    imgLink: "../../src/images/moviespace.png",
   },
 ];
