@@ -80,7 +80,7 @@ const ReactProject = () => {
                   ).map((item) => (
                     <Card
                       key={item.Title}
-                      className="m-2 max-w-[20rem] project-card"
+                      className="m-2 max-w-[20rem] project-card "
                     >
                       <CardHeader
                         floated={false}
@@ -91,7 +91,11 @@ const ReactProject = () => {
                         <img src={item.imgLink} alt="ui/ux review check" />
                       </CardHeader>
                       <CardBody>
-                        <Typography variant="h5" color="blue-gray">
+                        <Typography
+                          className="bodyText"
+                          variant="h5"
+                          color="blue-gray"
+                        >
                           {item.Title}
                         </Typography>
                         <Typography

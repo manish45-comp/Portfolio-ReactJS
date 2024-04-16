@@ -302,13 +302,13 @@ export const transition = {
 
 export const Projects = [
   {
-    Title: "Weather WebApp",
-    label: "Intermediate",
+    Title: "Age Calculator",
+    label: "Basic",
     Description:
-      "An intermediate-level ReactJS project that provides real-time weather updates. Users can search for any city in the world and get current weather conditions along with a 5-day forecast.",
+      "The Age Calculator is a sleek web app developed in React.js with Tailwind CSS styling. It enables users to effortlessly determine their age by entering their birthdate.",
     Category: "ReactJS",
     value: "Basic",
-    imgLink: "../../src/images/weatherapp.png",
+    imgLink: "../../src/images/ageCalculator.png",
   },
   {
     Title: "Movie Space",
