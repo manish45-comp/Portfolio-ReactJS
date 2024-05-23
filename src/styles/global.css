@@ -1,0 +1,237 @@
+:root {
+  /* Shades of White */
+  --color-white: hsla(0, 0%, 100%, 1);
+  --color-white100: hsla(0, 0%, 93%, 1);
+  --color-white200: hsla(0, 0%, 100%, 0.5);
+
+  /* Shades of Black */
+  --color-black: hsla(0, 0%, 0%, 1);
+  --color-dark: hsla(0, 0%, 19%, 1);
+
+  /* Shades of Green */
+
+  --color-green100: hsla(158, 25%, 94%, 1);
+  --color-green200: hsla(161, 23%, 81%, 1);
+  --color-green300: hsla(159, 42%, 88%, 1);
+  --color-green400: hsla(160, 52%, 71%, 1);
+  --color-green500: hsla(172, 95%, 18%, 1);
+  --color-green700: hsla(171, 11%, 24%, 1);
+  --color-green800: hsla(158, 23%, 18%, 1);
+
+  /* Shades of Yellow */
+  --color-yellow500: hsla(36, 97%, 70%, 1);
+  --color-yellow600: hsla(36, 74%, 25%, 1);
+  --color-yellow700: hsla(36, 91%, 13%, 1);
+
+  /* Shades of Blue */
+  --color-blue100: hsla(206, 84%, 86%, 1);
+  --color-blue200: hsla(204, 97%, 54%, 1);
+  --color-blue300: hsla(208, 90%, 40%, 1);
+
+  /* Shades of Purple */
+  --color-purple-100: hsla(261, 78.7%, 81.6%, 1);
+  --color-purple-200: hsla(267, 43%, 44.7%, 1);
+
+  /* Other Colors */
+  --color-backdrop: hsla(45, 17%, 95%, 0.8);
+  --color-mint: hsla(172, 45%, 75%, 1);
+  --color-lilac: hsla(227, 65%, 87%, 1);
+  --color-rust: hsla(22, 62%, 76%, 1);
+  --color-pink: hsla(284, 61%, 74%, 1);
+  --color-beige: rgb(237, 231, 222);
+  --spectrum-clay-400: #ded5d1;
+  --spectrum-clay-500: #c2b4ac;
+
+  /* Text Colors */
+  --text-primary: hsla(172, 95%, 18%, 1);
+  --text-secondary: hsla(171, 15%, 35%, 1);
+  --color-hilite-off: hsla(172, 95%, 18%, 0);
+
+  --14px: 0.875rem;
+  --16px: 1rem;
+  --20px: 1.25rem;
+  --21px: 1.3125rem;
+  --24px: 1.5rem;
+  --42px: 2.652rem;
+  --64px: 4rem;
+  --spacing-xl: max(
+    var(--64px),
+    calc(var(--64px) + (128 - 64) * ((100vw - 375px) / (1600 - 375)))
+  );
+  --spacing-l: max(
+    var(--42px),
+    calc(var(--42px) + (84 - 42) * ((100vw - 375px) / (1600 - 375)))
+  );
+  --spacing-m: max(
+    var(--24px),
+    calc(var(--24px) + (48 - 24) * ((100vw - 375px) / (1600 - 375)))
+  );
+  --spacing-s: max(
+    var(--21px),
+    calc(var(--21px) + (42 - 21) * ((100vw - 375px) / (1600 - 375)))
+  );
+  --spacing-xs: max(
+    var(--14px),
+    calc(var(--14px) + (28 - 14) * ((100vw - 375px) / (1600 - 375)))
+  );
+  --spacing-xxs: max(
+    calc(var(--14px) / 2),
+    calc((var(--14px) / 2) + (14 - 7) * ((100vw - 375px) / (1600 - 375)))
+  );
+  --max-width: 1600px;
+  --zindex-nav: 1000;
+}
+.dark-theme {
+  --text-primary: var(--color-white100);
+  --text-secondary: var(--color-beige);
+  --color-white100: var(--color-green300);
+  --color-green700: var(--color-beige);
+  --color-backdrop: var(--color-green500);
+}
+.dark-theme .active {
+  color: var(--color-green800);
+}
+.dark-theme .bodyText {
+  color: var(--color-green400);
+}
+.dark-theme .card-title.subtitle {
+  color: var(--color-green500);
+}
+.dark-theme .subtitle {
+  color: var(--color-green300);
+}
+.dark-theme .navText {
+  letter-spacing: 1.5px;
+}
+.dark-theme .music {
+  background-color: var(--color-beige);
+}
+.dark-theme .music .bodyText {
+  color: var(--color-green500);
+}
+.dark-theme .eduName .bodyText {
+  color: var(--color-green500);
+}
+.dark-theme .process .id {
+  color: var(--color-green500);
+  opacity: 0.7;
+}
+.dark-theme .subtitle-secondary {
+  color: var(--color-green500);
+}
+.dark-theme .process .bodyText {
+  color: var(--color-green500);
+}
+.dark-theme .cardText {
+  color: var(--color-green200);
+}
+.dark-theme .gridCard .navText {
+  color: var(--color-green400);
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--color-beige);
+}
+
+.dark-theme .app-container {
+  background-color: var(--color-green800);
+}
+
+@font-face {
+  font-family: TitleFont;
+  src: url("../assets/fonts/YoungSerif-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: TextFont;
+  src: url("../assets/fonts/Mulish-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: NavText;
+  src: url("../assets/fonts/Mulish-Medium.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: BoldText;
+  src: url("../assets/fonts/Mulish-Black.ttf") format("truetype");
+  font-weight: bold;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* transition: all 0.6s cubic-bezier(0, 0.55, 0.45, 1); */
+}
+body,
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+li {
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: var(--text-primary);
+}
+.wrapper {
+  max-width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+section {
+  margin-top: clamp(2.183rem, 2rem + 15vh, 20rem);
+}
+
+.title {
+  font-family: "TitleFont";
+  font-size: clamp(2.183rem, 0.2rem + 7vw, 13.75rem);
+  font-weight: bold;
+  color: var(--text-primary);
+  line-height: 110%;
+  display: block;
+}
+.subtitle {
+  font-family: "TitleFont";
+  font-size: clamp(1.875rem, 1.301rem + 2.449vw, 3rem);
+  font-weight: bold;
+  color: var(--text-primary);
+  line-height: 140%;
+  display: block;
+}
+.subtitle-secondary {
+  font-family: "TextFont";
+  font-size: clamp(1.375rem, 1.1837rem + 0.8163vw, 2rem);
+  color: var(--text-primary);
+  font-weight: 700;
+}
+.bodyText {
+  font-family: "TextFont";
+  font-size: clamp(1rem, 0.8rem + 0.3vw, 1.375rem);
+  line-height: 160%;
+  color: var(--color-green500);
+  display: block;
+  font-weight: bold;
+}
+.navText {
+  font-family: "NavText";
+  font-size: clamp(0.875rem, 0.7985rem + 0.3265vw, 1.04rem);
+  font-weight: bold;
+  color: var(--text-secondary);
+  display: block;
+  letter-spacing: 1.3px;
+}
+.cardText {
+  font-family: "TextFont";
+  font-size: clamp(1rem, 0.9235rem + 0.3265vw, 1.25rem);
+  color: var(--text-primary);
+  display: block;
+  font-weight: 700;
+}
