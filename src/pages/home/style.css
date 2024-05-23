@@ -17,9 +17,7 @@
 .color6 {
   background-color: var(--color-white) !important;
 }
-.card {
-  border-radius: 3rem !important;
-}
+
 .card::before {
   position: absolute;
   top: -18%;

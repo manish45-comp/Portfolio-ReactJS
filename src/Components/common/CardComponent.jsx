@@ -15,7 +15,12 @@ const CardComponent = ({ data }) => {
           >
             <Link to="#">
               <Card
-                sx={{ overflow: "revert", boxShadow: "none", borderRadius: 10 }}
+                sx={{
+                  overflow: "revert",
+                  boxShadow: "none",
+                  borderRadius: { xs: 5, md: 10 },
+                  height: "100%",
+                }}
                 className={`card color${id} mb-5 hover:shadow-lg`}
               >
                 <CardContent className="m-0 px-3 p-2 text-end">
