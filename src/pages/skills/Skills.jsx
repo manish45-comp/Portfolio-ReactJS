@@ -5,6 +5,7 @@ import MotionWrapper from "../../Components/common/MotionWrapper";
 import PageTitle from "../../Components/common/PageTitle";
 import { Typography } from "@mui/material";
 import { scrollToTop } from "../../utils/helper";
+import { motion } from "framer-motion";
 
 const Play = () => {
   useEffect(() => {
@@ -13,7 +14,11 @@ const Play = () => {
 
   const renderSkills = useMemo(() => {
     return skillsArray.map((item, index) => (
-      <div
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ delay: 0.5 }}
         key={index}
         className={`${
           item.rowWidth ? "col-span-2 row-span-2" : "col-span-2 row-span-1"
@@ -36,7 +41,7 @@ const Play = () => {
             <img className="" src={item.imgPath}></img>
           </div>
         </div>
-      </div>
+      </motion.div>
     ));
   }, []);
 
