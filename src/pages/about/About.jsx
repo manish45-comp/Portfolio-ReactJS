@@ -1,5 +1,4 @@
 import "./About.css";
-
 import { useMemo } from "react";
 import MotionWrapper from "../../Components/common/MotionWrapper";
 import { scrollToTop } from "../../utils/helper";
@@ -9,17 +8,19 @@ import {
   Card,
   CardActions,
   CardContent,
-  Chip,
   Dialog,
   DialogContent,
   IconButton,
 } from "@mui/material";
 import { Close } from "@mui/icons-material";
+import {
+  renderCourses,
+  renderProcess,
+  renderImages,
+  renderAboutME,
+} from "../../utils/utils";
 
-const SpotifyLogo =
-  "https://github.com/manish45-comp/image-storege/blob/main/images/spotify-png.png?raw=true";
-const profile =
-  "https://github.com/manish45-comp/image-storege/blob/main/images/Untitled-1.png?raw=true";
+import { SpotifyLogo, profile } from "../../utils/links";
 
 const About = () => {
   const [open, setOpen] = useState(false);
@@ -32,75 +33,13 @@ const About = () => {
     scrollToTop();
   }, []);
 
-  const renderCourses = useMemo(() => {
-    return Courses.map((item, index) => (
-      <div
-        key={index}
-        className={`gDiv p-5 rounded-full shadow-xl flex flex-row items-start justify-between div${item.id}`}
-      >
-        <p className="eduName flex text-start flex-col">
-          <span className="bodyText">{item.course}</span>
-          <span className="bodyText">{item.description}</span>
-        </p>
-        <p className="bodyText inverted my-auto">
-          <span>{item.duration}</span>
-        </p>
-      </div>
-    ));
-  }, []);
-
-  const renderProcess = useMemo(() => {
-    return MyProcess.map((item, index) => {
-      return (
-        <div key={index} className="span-1">
-          <h1 className="id text-3xl opa1city-50">
-            <span>{item.id}</span>
-          </h1>
-          <h3 className="subtitle-secondary my-4">
-            <span>{item.title}</span>
-          </h3>
-          <p className="bodyText my-5">
-            <span>{item.description}</span>
-          </p>
-        </div>
-      );
-    });
-  }, []);
-
-  const renderAboutME = useMemo(() => {
-    return AboutME.map((item, index) => {
-      return (
-        <div key={index} className="mb-4">
-          <p className="bodyText text-start">
-            <span>{item.text}</span>
-          </p>
-        </div>
-      );
-    });
-  }, []);
-
-  const renderImages = useMemo(() => {
-    return AboutImages.map((item, index) => {
-      return (
-        <Card
-          sx={{ padding: 0, borderRadius: 4 }}
-          key={index}
-          className={`bg-transparent shadow-none mb-4 md:mb-0 flex items-center justify-item-streach col-span-${item.colWidth}`}
-          onClick={() => {
-            handleOpen();
-            setPath(item.path);
-          }}
-        >
-          <div className="image-wrapper">
-            <img className="rounded-lg w-100" src={item.path}></img>
-            <div className="w-100 image-info">
-              <Chip variant="contained" color="info" label={item.location} />
-            </div>
-          </div>
-        </Card>
-      );
-    });
-  }, []);
+  const memorizesCourses = useMemo(() => renderCourses(Courses), []);
+  const memorizesProcess = useMemo(() => renderProcess(MyProcess), []);
+  const memorizesAboutMe = useMemo(() => renderAboutME(AboutME), []);
+  const memorizesImages = useMemo(
+    () => renderImages(AboutImages, handleOpen, setPath),
+    []
+  );
 
   return (
     <>
@@ -147,7 +86,7 @@ const About = () => {
             </div>
           </div>
           {/* My Education Section */}
-          <div className="grid grid-cols-1 gap-5 px-4 ">{renderCourses}</div>
+          <div className="grid grid-cols-1 gap-5 px-4 ">{memorizesCourses}</div>
           {/* My Education Section */}
           <div className="grid grid-cols-1 mt-20 text-start px-4 md:grid-cols-4">
             <div className="col-span-2 "></div>
@@ -169,17 +108,17 @@ const About = () => {
           </div>
           {/* My Process Section */}
           <div className="process grid grid-cols-1 gap-10 md:gap-40 md:grid-cols-2  sm:rounded-3xl mt-10 p-10 shadow-sm">
-            {renderProcess}
+            {memorizesProcess}
           </div>
           {/* My Process Section */}
 
           {/* About Me Section */}
           <div className=" flex items-center justify-center mt-20 px-5">
-            <div className="contain px-2 w-96">{renderAboutME}</div>
+            <div className="contain px-2 w-96">{memorizesAboutMe}</div>
           </div>
           {/* About Me Section */}
           <div className="flex flex-col justify-center items-streach md:flex-row px-2 mt-10 gap-5">
-            {renderImages}
+            {memorizesImages}
           </div>
         </div>
       </MotionWrapper>
