@@ -133,6 +133,8 @@
   flex-direction: column;
   min-height: 100vh;
   background-color: var(--color-beige);
+  background-image: url("../assets/images/grain-texture.png");
+  background-repeat: repeat;
 }
 
 .dark-theme .app-container {

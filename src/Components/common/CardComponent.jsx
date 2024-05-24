@@ -17,7 +17,6 @@ const CardComponent = ({ data }) => {
               <Card
                 sx={{
                   overflow: "revert",
-                  boxShadow: "none",
                   borderRadius: { xs: 5, md: 10 },
                   height: "100%",
                 }}
