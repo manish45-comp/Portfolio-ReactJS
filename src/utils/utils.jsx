@@ -13,7 +13,8 @@ export const renderSkills = (skillsArray) => {
         item.rowWidth ? "col-span-2 row-span-2" : "col-span-2 row-span-1"
       } rounded-xl p-10 gridCard`}
     >
-      <div
+      <motion.div
+        whileHover={{ y: -10 }}
         className={`flex justify-center items-center ${
           item.rowWidth ? "flex-col" : "flex-row"
         } `}
@@ -29,25 +30,8 @@ export const renderSkills = (skillsArray) => {
         <div className="rounded-full">
           <img className="" src={item.imgPath}></img>
         </div>
-      </div>
+      </motion.div>
     </motion.div>
-  ));
-};
-
-export const renderCourses = (Courses) => {
-  return Courses.map((item, index) => (
-    <div
-      key={index}
-      className={`mb-3 md:mb-0 cardBg row-start-${item.rs} row-end-${item.re} col-start-${item.cs} col-end-${item.ce} rounded-full p-5 flex flex-row items-start justify-between`}
-    >
-      <p className="eduName flex text-start flex-col">
-        <span className="bodyText">{item.course}</span>
-        <span className="bodyText">{item.description}</span>
-      </p>
-      <p className="bodyText inverted my-auto">
-        <span>{item.duration}</span>
-      </p>
-    </div>
   ));
 };
 
