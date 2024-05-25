@@ -189,6 +189,9 @@ section {
   display: block;
   font-weight: bold;
 }
+.profileText {
+  color: var(--color-green500) !important;
+}
 .processText {
   color: var(--color-green500);
 }

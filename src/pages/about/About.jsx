@@ -34,8 +34,10 @@ const About = () => {
                   src={SpotifyLogo}
                 />
                 <p className="flex flex-col items-start ps-5">
-                  <span className="bodyText">On repeat</span>
-                  <span className="bodyText">I Wanna Be Yours by AM</span>
+                  <span className="bodyText profileText">On repeat</span>
+                  <span className="bodyText profileText">
+                    I Wanna Be Yours by AM
+                  </span>
                 </p>
               </div>
             </CardActions>
