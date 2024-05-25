@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-import PropTypes from "prop-types";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "./styles.css";
 import { tabs } from "../../Data/Data";
@@ -9,8 +8,15 @@ const CustomNavbar = () => {
   const [background, setBackground] = useState(false);
   const [activeTab, setActiveTab] = useState(tabs[0].id);
   const navigate = useNavigate();
+  const location = useLocation();
+  console.log(location.pathname);
 
   useEffect(() => {
+    const currentTab = tabs.find((tab) => tab.to === location.pathname);
+    if (currentTab) {
+      setActiveTab(currentTab.id);
+    }
+
     window.addEventListener("scroll", () => {
       setBackground(window.scrollY >= 100);
     });
@@ -37,10 +43,10 @@ const CustomNavbar = () => {
             background ? "Blur shadow-sm" : ""
           }`}
         >
-          {tabs.map((tab) => {
+          {tabs.map((tab, i) => {
             return (
               <button
-                key={tab.id}
+                key={i}
                 onClick={() => handleNavButtonClick(tab.id, tab.to)}
                 className={`${
                   activeTab === tab.id ? "text-white" : "hover:opacity-50"
@@ -69,22 +75,6 @@ const CustomNavbar = () => {
       </nav>
     </div>
   );
-};
-
-export const NavbarItem = (props) => {
-  const { title, to } = props;
-  return (
-    <li className="flex">
-      <NavLink to={to} className="navText mx-1 main-link navbar-link relative">
-        {title}
-      </NavLink>
-    </li>
-  );
-};
-
-NavbarItem.propTypes = {
-  title: PropTypes.string.isRequired,
-  to: PropTypes.string.isRequired,
 };
 
 export default CustomNavbar;

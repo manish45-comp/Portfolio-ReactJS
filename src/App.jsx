@@ -11,13 +11,14 @@ const FooterComponent = lazy(() => import("./section/footer/Footer.jsx"));
 const NotFoundComponent = lazy(() => import("./pages/Error404/NotFound.jsx"));
 
 import CustomNavbar from "./section/header/CustomNavbar.jsx";
+import Background from "./Components/common/Background.jsx";
 
 function App() {
   const location = useLocation();
   return (
     <>
+      <Background />
       <div className="app-container">
-        {/* <ThemeToggleComponent /> */}
         <CustomNavbar />
         <AnimatePresence mode="wait" initial={false}>
           <Routes location={location} key={location.pathname}>

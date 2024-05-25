@@ -16,7 +16,6 @@ const Notes = () => {
   return (
     <MotionWrapper>
       <PageTitle title="Notes" notes={true} />
-
       <div className="grid grid-cols-1 gap-10 px-4 text-center">
         {NotesData.length > 0 ? memorizedNotes : <NoDataFoundText />}
       </div>

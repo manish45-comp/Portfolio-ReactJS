@@ -38,7 +38,7 @@ export const renderCourses = (Courses) => {
   return Courses.map((item, index) => (
     <div
       key={index}
-      className={`gDiv p-5 rounded-full shadow-xl flex flex-row items-start justify-between div${item.id}`}
+      className={`mb-3 md:mb-0 cardBg row-start-${item.rs} row-end-${item.re} col-start-${item.cs} col-end-${item.ce} rounded-full p-5 flex flex-row items-start justify-between`}
     >
       <p className="eduName flex text-start flex-col">
         <span className="bodyText">{item.course}</span>
@@ -61,7 +61,7 @@ export const renderProcess = (MyProcess) => {
         <h3 className="subtitle-secondary my-4">
           <span>{item.title}</span>
         </h3>
-        <p className="bodyText my-5">
+        <p className="bodyText processText my-5">
           <span>{item.description}</span>
         </p>
       </div>
