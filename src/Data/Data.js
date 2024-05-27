@@ -96,39 +96,6 @@ export const technologies = [
     order: "2",
   },
 ];
-export const MyProcess = [
-  {
-    id: "01",
-    title: "Make it",
-    description: `I sketch wireframes and make prototypes. Talking through
-                  tactile designs existing in the browser is worth its
-                  weight. Design tools only carry you so far; the rest
-                  should be realized with a link my team can rally around.`,
-  },
-  {
-    id: "02",
-    title: "Collaborate",
-    description: ` Good design is not created in a vacuum but rather in a
-                    shared space. It must be facilitated and iterated upon as
-                    a team. I aim to include stakeholders in my design process
-                    and create a collaborative environment that welcomes and
-                    encourages feedback.`,
-  },
-  {
-    id: "03",
-    title: "Accessible FTW",
-    description: ` I aim to make everything I design accessible to all for
-                    one main reason - it's the right thing to do. Accessible
-                    products benefit the many, not the few.`,
-  },
-  {
-    id: "04",
-    title: "Keep experimenting",
-    description: `   Everything I create is subject to change and
-                      experimentation. Not everything will work, but it's worth
-                      trying - and learning from what doesn't.`,
-  },
-];
 
 export const AboutME = [
   {
