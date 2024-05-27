@@ -15,11 +15,13 @@ export const renderSkills = (skillsArray) => {
     >
       <motion.div
         whileHover={{ y: -10 }}
-        className={`flex justify-center items-center ${
-          item.rowWidth ? "flex-col" : "flex-row"
-        } `}
+        className={`grid ${item.rowWidth ? "grid-cols-1" : "grid-cols-8"} `}
       >
-        <div className="text-start">
+        <div
+          className={`text-start span-1 flex flex-col justify-center ${
+            item.rowWidth ? "" : "col-start-1 col-end-6"
+          }`}
+        >
           <Typography sx={{ marginBlock: 2 }} variant="h5">
             <span className="cardText">{item.title}</span>
           </Typography>
@@ -27,8 +29,17 @@ export const renderSkills = (skillsArray) => {
             <span className="navText">{item.description}</span>
           </Typography>
         </div>
-        <div className="rounded-full">
-          <img className="" src={item.imgPath}></img>
+        <div
+          className={` span-1 overflow-hidden flex items-center justify-center ${
+            item.rowWidth ? "" : "col-start-6 col-end-9"
+          }`}
+        >
+          <img
+            className={`shot  ${
+              item.rowWidth ? "rounded-xl" : "rounded-full"
+            }  `}
+            src={item.imgPath}
+          ></img>
         </div>
       </motion.div>
     </motion.div>

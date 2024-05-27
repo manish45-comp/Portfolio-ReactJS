@@ -8,7 +8,7 @@ import { renderSkills } from "../../utils/utils";
 
 const Play = () => {
   useEffect(() => {
-    scrollToTop();
+    // scrollToTop();
   }, []);
 
   const memoizedSkills = useMemo(() => renderSkills(skillsArray), []);

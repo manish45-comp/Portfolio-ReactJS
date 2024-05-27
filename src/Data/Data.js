@@ -144,8 +144,7 @@ export const skillsArray = [
     title: "Code Craft",
     description: "Transforming code into digital enchantments.",
     imgPath:
-      "https://github.com/manish45-comp/image-storege/blob/main/SkillsSvg/CodeCraft.png?raw=true",
-    fallBackImgPath: "../images/SkillsSvg/adaptibility.svg",
+      "https://raw.githubusercontent.com/manish45-comp/image-storege/fb32118eb430cc7088dfb08a1bd5b4d5c8eaf33b/SkillsSvg/coding-3-75.svg ",
     colWidth: "1",
     rowWidth: false,
   },
@@ -155,7 +154,7 @@ export const skillsArray = [
     title: "Adaptability",
     description: "Morphing seamlessly to fit any tech landscape.",
     imgPath:
-      "https://github.com/manish45-comp/image-storege/blob/main/SkillsSvg/adaptibility.png?raw=true",
+      "https://raw.githubusercontent.com/manish45-comp/image-storege/2179d1b255316c05cac11747fb3ead1c155f64a4/SkillsSvg/puzzle.svg",
     colWidth: "1",
     rowWidth: false,
   },
@@ -165,7 +164,7 @@ export const skillsArray = [
     title: "GitWizard",
     description: "Mastering intricate versions effortlessly.",
     imgPath:
-      "https://github.com/manish45-comp/image-storege/blob/main/SkillsSvg/FinalGitHub.png?raw=true",
+      "https://raw.githubusercontent.com/manish45-comp/image-storege/bec05545d6a11a9c1ad52a90ef31f2c0ef0f6632/SkillsSvg/git.svg",
     colWidth: "1",
     rowWidth: true,
   },
@@ -175,7 +174,7 @@ export const skillsArray = [
     title: "Design Alchemy",
     description: "Converting high-fidelity designs to low-fidelity charm.",
     imgPath:
-      "https://github.com/manish45-comp/image-storege/blob/main/SkillsSvg/Design.png?raw=true",
+      "https://raw.githubusercontent.com/manish45-comp/image-storege/1707f543fe365d10a9e7c0ac52c61353995c3148/SkillsSvg/3d-model-100.svg",
     colWidth: "1",
     rowWidth: false,
   },
@@ -185,7 +184,7 @@ export const skillsArray = [
     title: "Backend Sorcery",
     description: "Summoning dynamic websites from the depths of data.",
     imgPath:
-      "https://github.com/manish45-comp/image-storege/blob/main/SkillsSvg/FinalDatabase.png?raw=true",
+      "https://raw.githubusercontent.com/manish45-comp/image-storege/1707f543fe365d10a9e7c0ac52c61353995c3148/SkillsSvg/data-settings-8.svg ",
     colWidth: "1",
     rowWidth: true,
   },
@@ -195,7 +194,7 @@ export const skillsArray = [
     title: "Frameworks",
     description: "Enchanting websites with powerful tools.",
     imgPath:
-      "https://github.com/manish45-comp/image-storege/blob/main/SkillsSvg/FinalFramework.png?raw=true",
+      "https://raw.githubusercontent.com/manish45-comp/image-storege/6dc27ea13536cbc6c1ceacee2eaa44cf0c9efff5/SkillsSvg/framework.svg",
     colWidth: "1",
     rowWidth: true,
     start: 4,
@@ -207,7 +206,7 @@ export const skillsArray = [
     title: "Debug Master",
     description: "Banishing bugs, turning chaos into harmony.",
     imgPath:
-      "https://github.com/manish45-comp/image-storege/blob/main/SkillsSvg/Debug.png?raw=true",
+      "https://raw.githubusercontent.com/manish45-comp/image-storege/1707f543fe365d10a9e7c0ac52c61353995c3148/SkillsSvg/bug-fixing-46.svg",
     colWidth: "1",
     rowWidth: false,
   },
@@ -217,7 +216,7 @@ export const skillsArray = [
     title: "Safeguard",
     description: "Defending digital realms against dark forces.",
     imgPath:
-      "https://github.com/manish45-comp/image-storege/blob/main/SkillsSvg/security.png?raw=true",
+      "https://raw.githubusercontent.com/manish45-comp/image-storege/1707f543fe365d10a9e7c0ac52c61353995c3148/SkillsSvg/cybersecurity-1-1.svg",
     colWidth: "1",
     rowWidth: false,
   },
@@ -227,7 +226,7 @@ export const skillsArray = [
     title: "Evolvability",
     description: "Embracing the never-ending journey of learning and growth.",
     imgPath:
-      "https://github.com/manish45-comp/image-storege/blob/main/SkillsSvg/adaptibility.png?raw=true",
+      "https://raw.githubusercontent.com/manish45-comp/image-storege/a00b54c9c47c1d78b78a9d84454b602ba702f9c6/SkillsSvg/chart-7-66.svg",
     colWidth: "1",
     rowWidth: false,
   },

@@ -10,7 +10,7 @@ const Work = () => {
       <MotionWrapper>
         <PageTitle
           title="Hi. i'am Manish."
-          title2="A Engineer."
+          title2="An Engineer."
           work={true}
           workSecond={false}
         />
