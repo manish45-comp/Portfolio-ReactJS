@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import { Button, Card, CardContent, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
+import { motion } from "framer-motion";
 
 const CardComponent = ({ data }) => {
   return (
@@ -9,7 +10,8 @@ const CardComponent = ({ data }) => {
       {data.map((item, index) => {
         const { id, text, title, imgLink, colWidth, order } = item;
         return (
-          <div
+          <motion.div
+            whileHover={{ y: -10 }}
             key={index}
             className={`mt-10 px-5 col-span-1 col-span-${colWidth} order-${order}}`}
           >
@@ -45,7 +47,7 @@ const CardComponent = ({ data }) => {
                 </div>
               </Card>
             </Link>
-          </div>
+          </motion.div>
         );
       })}
     </>

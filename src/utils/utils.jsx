@@ -35,24 +35,6 @@ export const renderSkills = (skillsArray) => {
   ));
 };
 
-export const renderProcess = (MyProcess) => {
-  return MyProcess.map((item, index) => {
-    return (
-      <div key={index} className="span-1">
-        <h1 className="id text-3xl opa1city-50">
-          <span>{item.id}</span>
-        </h1>
-        <h3 className="subtitle-secondary my-4">
-          <span>{item.title}</span>
-        </h3>
-        <p className="bodyText processText my-5">
-          <span>{item.description}</span>
-        </p>
-      </div>
-    );
-  });
-};
-
 export const renderAboutME = (AboutME) => {
   return AboutME.map((item, index) => {
     return (

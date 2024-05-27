@@ -182,12 +182,12 @@ section {
   font-weight: 700;
 }
 .bodyText {
-  font-family: "TextFont";
+  font-family: "Inter", sans-serif;
   font-size: clamp(1rem, 0.8rem + 0.3vw, 1.375rem);
   line-height: 160%;
   color: var(--color-green400);
   display: block;
-  font-weight: bold;
+  font-weight: normal;
 }
 .profileText {
   color: var(--color-green500) !important;
@@ -196,21 +196,21 @@ section {
   color: var(--color-green500);
 }
 .navText {
-  font-family: "NavText";
+  /* font-family: "NavText"; */
+  font-family: "Inter", sans-serif;
   font-size: clamp(0.875rem, 0.7985rem + 0.3265vw, 1.04rem);
-  font-weight: bold;
+  font-weight: 500;
   color: var(--text-secondary);
   display: block;
   letter-spacing: 1.3px;
 }
 .cardText {
-  font-family: "TextFont";
+  font-family: "Inter", sans-serif;
   font-size: clamp(1rem, 0.9235rem + 0.3265vw, 1.25rem);
   color: var(--text-primary);
   display: block;
   font-weight: 700;
 }
-
 .grid-container {
   width: 100%;
   height: 100%;
