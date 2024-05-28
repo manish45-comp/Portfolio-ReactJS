@@ -10,7 +10,7 @@ const PageTitle = ({
   notfound,
 }) => {
   return (
-    <div className="grid grid-cols-1 my-20">
+    <div className="grid grid-cols-1 my-5">
       <div className="text-center">
         <h1>
           <span className="title">{title}</span>
@@ -68,6 +68,7 @@ PageTitle.propTypes = {
   skills: PropTypes.bool,
   notes: PropTypes.bool,
   inProgress: PropTypes.bool,
+  notfound: PropTypes.bool,
 };
 
 export default PageTitle;
