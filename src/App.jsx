@@ -22,6 +22,7 @@ function App() {
       <Background />
       <div className="app-container">
         <CustomNavbar />
+
         <AnimatePresence mode="wait" initial={false}>
           <Routes location={location} key={location.pathname}>
             <Route index element={<WorkComponent />}></Route>

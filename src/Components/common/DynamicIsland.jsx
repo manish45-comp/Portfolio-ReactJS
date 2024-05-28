@@ -7,7 +7,7 @@ const DynamicIsland = () => {
   const setPathName = () => {
     switch (pathname) {
       case "/":
-        return "🏠 Work";
+        return "🏠 Home";
       case "/about":
         return "😎 About";
       case "/play":
@@ -36,7 +36,7 @@ const DynamicIsland = () => {
         initial={{ opacity: 0, scale: 0 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ delay: 0.6 }}
-        className="origin-left fixed bottom-10 z-50 bg-zinc-900 flex items-center justify-center rounded-full h-12 px-5 p-2 text-center"
+        className="fixed bottom-10 z-50 bg-zinc-900 flex items-center justify-center rounded-full h-12 px-5 p-2 text-center"
       >
         <motion.p
           initial={{ scale: 0 }}
