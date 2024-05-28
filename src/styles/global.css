@@ -214,7 +214,7 @@ section {
 .grid-container {
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -223,23 +223,21 @@ section {
 }
 
 .grid-svg {
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   z-index: 0;
 }
 .blur-svg {
   height: 12rem;
   width: 12rem;
-  background-color: hsl(155, 100%, 65%);
   filter: blur(100px);
   border-radius: 100px;
   z-index: 0;
   position: absolute;
+  background-color: hsl(155, 100%, 65%);
 }
+
 .cardBg {
   background-color: #11221c;
   box-shadow: inset 0 0 0 1px #47856e;
-  background-image: url("../assets/images/grain-texture.png");
-  background-position: center;
-  background-repeat: repeat;
 }
