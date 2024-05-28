@@ -12,6 +12,8 @@ const NotFoundComponent = lazy(() => import("./pages/Error404/NotFound.jsx"));
 
 import CustomNavbar from "./section/header/CustomNavbar.jsx";
 import Background from "./Components/common/Background.jsx";
+import React from "./pages/react/React.jsx";
+import Html from "./pages/html/Html.jsx";
 
 function App() {
   const location = useLocation();
@@ -22,10 +24,14 @@ function App() {
         <CustomNavbar />
         <AnimatePresence mode="wait" initial={false}>
           <Routes location={location} key={location.pathname}>
-            <Route index element={<WorkComponent />} />
+            <Route index element={<WorkComponent />}></Route>
+
             <Route path="/about" element={<AboutComponent />} />
             <Route path="/play" element={<SkillsComponent />} />
             <Route path="/note" element={<NotesComponent />} />
+            <Route path="/react" element={<React />} />
+            <Route path="/html" element={<Html />} />
+
             {/* fallback route */}
             <Route path="*" element={<NotFoundComponent />} />
           </Routes>

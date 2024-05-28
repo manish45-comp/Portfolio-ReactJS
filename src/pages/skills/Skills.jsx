@@ -5,10 +5,11 @@ import PageTitle from "../../Components/common/PageTitle";
 import { scrollToTop } from "../../utils/helper";
 import { skillsArray } from "../../Data/Data";
 import { renderSkills } from "../../utils/utils";
+import DynamicIsland from "../../Components/common/DynamicIsland";
 
 const Play = () => {
   useEffect(() => {
-    // scrollToTop();
+    scrollToTop();
   }, []);
 
   const memoizedSkills = useMemo(() => renderSkills(skillsArray), []);
@@ -16,6 +17,7 @@ const Play = () => {
   return (
     <>
       <MotionWrapper>
+        <DynamicIsland />
         <PageTitle title="Skills" skills={true} />
         <div className="showcase py-4">{memoizedSkills}</div>
       </MotionWrapper>

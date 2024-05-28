@@ -3,11 +3,13 @@ import MotionWrapper from "../../Components/common/MotionWrapper";
 import CardComponent from "../../Components/common/CardComponent";
 import PageTitle from "../../Components/common/PageTitle";
 import { technologies } from "../../Data/Data";
+import DynamicIsland from "../../Components/common/DynamicIsland";
 
 const Work = () => {
   return (
     <>
       <MotionWrapper>
+        <DynamicIsland />
         <PageTitle
           title="Hi. i'am Manish."
           title2="An Engineer."

@@ -8,14 +8,14 @@ const CardComponent = ({ data }) => {
   return (
     <>
       {data.map((item, index) => {
-        const { id, text, title, imgLink, colWidth, order } = item;
+        const { id, text, title, imgLink, colWidth, order, link } = item;
         return (
           <motion.div
             whileHover={{ y: -10 }}
             key={index}
             className={`mt-10 px-5 col-span-1 col-span-${colWidth} order-${order}}`}
           >
-            <Link to="#">
+            <Link to={link}>
               <Card
                 sx={{
                   overflow: "revert",

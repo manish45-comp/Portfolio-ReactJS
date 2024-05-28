@@ -8,6 +8,7 @@ const PageTitle = ({
   skills,
   notes,
   notfound,
+  about,
 }) => {
   return (
     <div className="grid grid-cols-1 my-5">
@@ -25,7 +26,14 @@ const PageTitle = ({
               <br></br> accessible, and user-centric.
             </span>
           )}
-
+          {about && (
+            <span className="bodyText">
+              A Computer Engineer passionate about ReactJS and object-oriented
+              <br />
+              languages like JavaScript and Java. I also enjoy FPS video games
+              and excel at cricket.
+            </span>
+          )}
           {skills ? (
             <span className="bodyText">
               An array of skills and expertise I possess, tailored to be
@@ -69,6 +77,7 @@ PageTitle.propTypes = {
   notes: PropTypes.bool,
   inProgress: PropTypes.bool,
   notfound: PropTypes.bool,
+  about: PropTypes.bool,
 };
 
 export default PageTitle;

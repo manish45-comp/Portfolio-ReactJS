@@ -5,6 +5,7 @@ import MotionWrapper from "../../Components/common/MotionWrapper";
 import PageTitle from "../../Components/common/PageTitle";
 import { scrollToTop } from "../../utils/helper";
 import { renderNotes } from "../../utils/utils";
+import DynamicIsland from "../../Components/common/DynamicIsland";
 
 const Notes = () => {
   useEffect(() => {
@@ -15,6 +16,7 @@ const Notes = () => {
 
   return (
     <MotionWrapper>
+      <DynamicIsland />
       <PageTitle title="Notes" notes={true} />
       <div className="grid grid-cols-1 gap-10 px-4 text-center">
         {NotesData.length > 0 ? memorizedNotes : <NoDataFoundText />}

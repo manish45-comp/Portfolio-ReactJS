@@ -9,7 +9,6 @@ const CustomNavbar = () => {
   const [activeTab, setActiveTab] = useState(tabs[0].id);
   const navigate = useNavigate();
   const location = useLocation();
-  console.log(location.pathname);
 
   useEffect(() => {
     const currentTab = tabs.find((tab) => tab.to === location.pathname);
@@ -26,7 +25,7 @@ const CustomNavbar = () => {
         setBackground(window.scrollY >= 100);
       });
     };
-  }, []);
+  }, [location.pathname]);
 
   const handleNavButtonClick = (id, path) => {
     setActiveTab(id);

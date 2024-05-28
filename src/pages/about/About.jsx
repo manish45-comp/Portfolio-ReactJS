@@ -12,6 +12,7 @@ import CoursesSection from "../../section/courses/CoursesSection";
 import ProcessSection from "../../section/process/ProcessSection";
 import AboutMe from "../../section/aboutMe/AboutMe";
 import ImageSection from "../../section/imageSection/ImageSection";
+import DynamicIsland from "../../Components/common/DynamicIsland";
 
 const About = () => {
   useEffect(() => {
@@ -21,7 +22,8 @@ const About = () => {
   return (
     <>
       <MotionWrapper>
-        <PageTitle title="i'am Manish" />
+        <DynamicIsland />
+        <PageTitle title="i'am Manish" about={true} />
         <div className="my-20 grid grid-cols-1 md:grid-cols-2 p-5">
           <Card className="w-72 md:w-96 h-min mx-auto rounded-large">
             <CardContent sx={{ padding: 0 }} className="m-0 profile-wrapper">

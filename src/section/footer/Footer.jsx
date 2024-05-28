@@ -1,3 +1,4 @@
+import { Tooltip as ReactTooltip } from "react-tooltip";
 import { Typography } from "@mui/material";
 import "./style.css";
 import { Link } from "react-router-dom";
@@ -71,7 +72,11 @@ const Footer = () => {
                     {items.map((link) => (
                       <li key={link}>
                         <Typography sx={{ py: 1 }} as="a" href={link.link}>
-                          <span className="py-3 navText hover:text-blue-500">
+                          <span
+                            data-tooltip-id={link.name}
+                            data-tooltip-class-name="navText"
+                            className="py-3 navText hover:text-blue-500"
+                          >
                             {link.name}
                           </span>
                         </Typography>
@@ -84,6 +89,23 @@ const Footer = () => {
           </div>
         </footer>
       </main>
+      <ReactTooltip
+        id="instagram"
+        place="left-start"
+        content="Instagram Profile"
+      />
+      <ReactTooltip id="GitHub" place="left-start" content="GitHub Profile" />
+      <ReactTooltip
+        id="Linkedin"
+        place="left-start"
+        content="LinkedIn Profile"
+      />
+      <ReactTooltip
+        id="Download Cv"
+        place="left-start"
+        content="Manish Bagal Resume"
+      />
+      <ReactTooltip id="Message" place="left-start" content="Contact" />
     </>
   );
 };
