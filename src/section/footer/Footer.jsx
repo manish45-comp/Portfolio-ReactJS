@@ -15,7 +15,7 @@ const FooterLink = [
       },
       {
         name: "Download Cv",
-        link: "https://drive.google.com/file/d/1C_uCpYygXYgm3RcNgYe8hWQJmB8O5BwX/view?usp=sharing",
+        link: "https://drive.google.com/file/d/1Sayq2Rp1CU25j7AJY_fVrDAzeUb3fw1e/view?usp=sharing",
       },
     ],
   },
