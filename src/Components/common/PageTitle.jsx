@@ -9,6 +9,7 @@ const PageTitle = ({
   notes,
   notfound,
   about,
+  react,
 }) => {
   return (
     <div className="grid grid-cols-1 my-5">
@@ -62,6 +63,11 @@ const PageTitle = ({
               on track.
             </span>
           )}
+          {react && (
+            <span className="bodyText">
+              Unleashing React Brilliance a Showcase of Captivating Projects
+            </span>
+          )}
         </p>
       </div>
     </div>
@@ -78,6 +84,7 @@ PageTitle.propTypes = {
   inProgress: PropTypes.bool,
   notfound: PropTypes.bool,
   about: PropTypes.bool,
+  react: PropTypes.bool,
 };
 
 export default PageTitle;

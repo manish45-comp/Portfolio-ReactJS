@@ -17,9 +17,7 @@
 .color6 {
   background-color: var(--color-white) !important;
 }
-.card {
-  box-shadow: inset 0 0 0 1px #47856e !important;
-}
+
 .card::before {
   position: absolute;
   top: -18%;

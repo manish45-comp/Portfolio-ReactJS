@@ -13,6 +13,8 @@ import ProcessSection from "../../section/process/ProcessSection";
 import AboutMe from "../../section/aboutMe/AboutMe";
 import ImageSection from "../../section/imageSection/ImageSection";
 import DynamicIsland from "../../Components/common/DynamicIsland";
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const About = () => {
   useEffect(() => {
@@ -25,23 +27,43 @@ const About = () => {
         <DynamicIsland />
         <PageTitle title="i'am Manish" about={true} />
         <div className="my-20 grid grid-cols-1 md:grid-cols-2 p-5">
-          <Card className="w-72 md:w-96 h-min mx-auto rounded-large">
-            <CardContent sx={{ padding: 0 }} className="m-0 profile-wrapper">
-              <img className="mt-10" src={profile} alt="profile-picture" />
+          <Card
+            sx={{ boxShadow: "0 0 0 1px #47856e" }}
+            className="w-72 md:w-96 h-min mx-auto rounded-large"
+          >
+            <CardContent
+              sx={{ padding: 0 }}
+              className="rounded-md m-0 profile_wrapper"
+            >
+              <img
+                className="rounded mt-10"
+                src={profile}
+                alt="profile-picture"
+              />
             </CardContent>
             <CardActions sx={{ padding: 0, display: "flex" }}>
-              <div className="music-container music flex-1 flex items-center justify-stretch p-2">
-                <img
-                  className="w-20 p-2 img-fluid music-logo"
-                  src={SpotifyLogo}
-                />
-                <p className="flex flex-col items-start ps-5">
-                  <span className="bodyText profileText">On repeat</span>
-                  <span className="bodyText profileText">
-                    I Wanna Be Yours by AM
-                  </span>
-                </p>
-              </div>
+              <Link
+                target="{_blank}"
+                to="https://youtu.be/mNEUkkoUoIA?si=VvWJlyNihQAmYo0P"
+                className="flex-1"
+              >
+                <motion.div
+                  whileHover={{ scale: 0.9 }}
+                  whileTap={{ scale: 1 }}
+                  className="music_container border rounded-xl mt-2 border-gray-500 music flex-1 flex items-center justify-stretch p-2"
+                >
+                  <img
+                    className="w-20 p-2 img-fluid music-logo"
+                    src={SpotifyLogo}
+                  />
+                  <p className="flex flex-col items-start ps-5">
+                    <span className="bodyText profileText">On repeat</span>
+                    <span className="bodyText profileText">
+                      OneRepublic - I Ain’t Worried
+                    </span>
+                  </p>
+                </motion.div>
+              </Link>
             </CardActions>
           </Card>
           <div className="grid grid-cols-1 mt-10 text-start px-4">

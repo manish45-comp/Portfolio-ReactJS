@@ -260,3 +260,11 @@ export const Projects = [
     imgLink: "../../src/images/moviespace.png",
   },
 ];
+
+export const ReactProjects = [
+  {
+    name: "Qr Code Generator",
+    imgLink:
+      "https://github.com/manish45-comp/image-storege/blob/main/React/qr_generator.png?raw=true",
+  },
+];

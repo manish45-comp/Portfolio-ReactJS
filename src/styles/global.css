@@ -236,8 +236,11 @@ section {
   position: absolute;
   background-color: hsl(155, 100%, 65%);
 }
-
 .cardBg {
-  background-color: #11221c;
+  background-color: rgba(17, 34, 28, 0.3);
   box-shadow: inset 0 0 0 1px #47856e;
+  backdrop-filter: blur(15px);
+}
+.project_card {
+  border: 5px solid rgba(255, 255, 255, 0.3);
 }
