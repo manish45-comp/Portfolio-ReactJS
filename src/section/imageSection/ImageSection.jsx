@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import { useMemo, useState } from "react";
 import { AboutImages } from "../../Data/Data";
 import { renderImages } from "../../utils/utils";
@@ -53,11 +52,6 @@ const ImageSection = () => {
       </Dialog>
     </>
   );
-};
-
-ImageSection.propTypes = {
-  handleOpen: PropTypes.func.isRequired,
-  setPath: PropTypes.func.isRequired,
 };
 
 export default ImageSection;

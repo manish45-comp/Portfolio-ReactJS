@@ -70,8 +70,8 @@ const Footer = () => {
                     >
                       {title}
                     </Typography>
-                    {items.map((link) => (
-                      <li key={link}>
+                    {items.map((link, i) => (
+                      <li key={i}>
                         <Typography sx={{ py: 1 }} as="a" href={link.link}>
                           <span
                             data-tooltip-id={link.name}

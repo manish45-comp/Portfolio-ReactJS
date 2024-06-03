@@ -242,5 +242,31 @@ section {
   backdrop-filter: blur(15px);
 }
 .project_card {
+  transition: all 0.5s ease-in-out;
   border: 5px solid rgba(255, 255, 255, 0.3);
+}
+.project_card:hover {
+  border: 5px solid rgba(124, 110, 255, 0.3);
+}
+
+.project_details {
+  color: white;
+  font-size: medium;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+  opacity: 0;
+}
+.image_container:hover .project_details {
+  opacity: 1;
+}
+
+.image_container img {
+  object-fit: cover;
+}
+
+.btn-primary {
+  background-color: var(--color-green500);
+  color: var(--color-white);
+  font-weight: 500;
+  padding: 1rem 2rem;
+  border-radius: 0.7rem;
 }

@@ -37,7 +37,7 @@ export const technologies = [
     id: 1,
     text: "Discover",
     title: "React JS",
-    link: "/react",
+    link: "/projects/react",
     imgLink:
       "https://github.com/manish45-comp/image-storege/blob/main/images/React-Card.png?raw=true",
     colWidth: "1",
@@ -47,7 +47,7 @@ export const technologies = [
     id: 2,
     text: "Explore",
     title: "HTML CSS JavaScript",
-    link: "/html",
+    link: "/projects/html",
     imgLink:
       "https://github.com/manish45-comp/image-storege/blob/main/images/Web-Design-Card.png?raw=true",
 
@@ -58,7 +58,7 @@ export const technologies = [
     id: 4,
     text: "Reveal",
     title: "Spring Boot",
-    link: "/spring",
+    link: "/projects/spring",
     imgLink:
       "https://github.com/manish45-comp/image-storege/blob/main/images/SpringBoot-Card.png?raw=true",
     colWidth: "2",
@@ -67,8 +67,8 @@ export const technologies = [
   {
     id: 3,
     text: "Uncover",
-    title: "React Native",
-    link: "/react-native",
+    title: "Figma",
+    link: "/projects/figma",
     imgLink:
       "https://github.com/manish45-comp/image-storege/blob/main/images/ReactNative-Card.png?raw=true",
     colWidth: "1",
@@ -79,7 +79,7 @@ export const technologies = [
     id: 5,
     text: "Uncover",
     title: "White",
-    link: "/react-native",
+    link: "/projects/react-native",
     imgLink:
       "https://github.com/manish45-comp/image-storege/blob/main/images/ReactNative-Card.png?raw=true",
     colWidth: "1",
@@ -89,7 +89,7 @@ export const technologies = [
     id: 6,
     text: "Reveal",
     title: "Black",
-    link: "/html-css",
+    link: "/projects/html-css",
     imgLink:
       "https://github.com/manish45-comp/image-storege/blob/main/images/Web-Design-Card.png?raw=true",
     colWidth: "2",
@@ -263,8 +263,16 @@ export const Projects = [
 
 export const ReactProjects = [
   {
-    name: "Qr Code Generator",
+    title: "Qr Code Generator",
     imgLink:
       "https://github.com/manish45-comp/image-storege/blob/main/React/qr_generator.png?raw=true",
+  },
+];
+
+export const FigmaProjects = [
+  {
+    title: "GR Supra Product page",
+    imgLink:
+      "https://github.com/manish45-comp/image-storege/blob/main/Figma/474shots_so.png?raw=true",
   },
 ];

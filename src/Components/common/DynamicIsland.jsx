@@ -14,20 +14,39 @@ const DynamicIsland = () => {
         return "🥷🏻 Skills";
       case "/note":
         return "📒 Notes";
-      case "/react":
+      case "/projects/react":
         return (
           <>
             <i className="fa-brands fa-react text-blue-500 me-2"></i> React
           </>
         );
-      case "/html":
+      case "/projects/html":
         return (
           <>
-            <i className="fa-brands fa-html5 text-red-500 me-2"></i> HTML CSS JS
+            <i className="fa-brands fa-html5 text-green-500 me-2"></i> HTML CSS
+            JS
+          </>
+        );
+      case "/projects/figma":
+        return (
+          <>
+            <i className="fa-brands fa-figma text-blue-500 me-2"></i> Figma
+          </>
+        );
+      case "/projects/spring":
+        return (
+          <>
+            <i className="fa-brands fa-java text-slate-100 me-2"></i> Spring
+            Boot
           </>
         );
       default:
-        return "⚠️ Wrong turn";
+        return (
+          <>
+            <i className="fa-solid fa-skull-crossbones text-red-500 me-2"></i>{" "}
+            Wrong turn
+          </>
+        );
     }
   };
   return (
@@ -36,7 +55,7 @@ const DynamicIsland = () => {
         initial={{ opacity: 0, scale: 0 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ delay: 0.6 }}
-        className="fixed bottom-10 z-50 bg-zinc-900 flex items-center justify-center rounded-full h-12 px-5 p-2 text-center"
+        className="overflow-hidden fixed bottom-10 z-50 bg-zinc-900 flex items-center justify-center rounded-full h-12 px-5 p-2 text-center"
       >
         <motion.p
           initial={{ scale: 0 }}

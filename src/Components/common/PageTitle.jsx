@@ -12,8 +12,8 @@ const PageTitle = ({
   react,
 }) => {
   return (
-    <div className="grid grid-cols-1 my-5">
-      <div className="text-center">
+    <div className="grid grid-cols-1 my-5 mt-16">
+      <div className={`text-center ${work && "title_box"} relative`}>
         <h1>
           <span className="title">{title}</span>
           <span className="title">{title2}</span>
