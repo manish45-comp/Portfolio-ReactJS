@@ -267,6 +267,11 @@ export const ReactProjects = [
     imgLink:
       "https://github.com/manish45-comp/image-storege/blob/main/React/qr_generator.png?raw=true",
   },
+  {
+    title: "Passwords Generator",
+    imgLink:
+      "https://github.com/manish45-comp/image-storege/blob/main/React/101shots_so.png?raw=true",
+  },
 ];
 
 export const FigmaProjects = [
