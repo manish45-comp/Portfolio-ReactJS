@@ -48,7 +48,7 @@ const Footer = () => {
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
                   whileHover={{ scale: 1.01, skewY: -2 }}
-                  className="music flex items-center rounded-full my-4 mx-auto max-w-sm shadow-sm hover:shadow-lg"
+                  className="music flex items-center rounded-full my-4 mx-auto max-w-sm"
                 >
                   <img className="p-3 img-fluid w-20" src={SpotifyLogo} />
                   <div className="flex flex-col">

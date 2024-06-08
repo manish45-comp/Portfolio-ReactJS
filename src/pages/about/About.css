@@ -6,11 +6,24 @@
   background-color: #fbab7e;
   background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
   border: 0.1px solid transparent;
+  aspect-ratio: 1/1;
 }
 .music_container {
   cursor: pointer;
   color: var(--color-beige);
   background-color: var(--text-primary);
+  position: relative;
+}
+
+.music_container::after {
+  content: "";
+  position: absolute;
+  border-radius: inherit;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.02;
+  background: url("https://github.com/manish45-comp/image-storege/blob/main/noice%20grain.png?raw=true");
 }
 
 .process {
@@ -18,6 +31,17 @@
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15);
+}
+
+.process::before {
+  content: "";
+  position: absolute;
+  border-radius: inherit;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.02;
+  background: url("https://github.com/manish45-comp/image-storege/blob/main/noice%20grain.png?raw=true");
 }
 
 .process .id {

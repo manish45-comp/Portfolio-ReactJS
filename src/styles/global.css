@@ -118,28 +118,20 @@
   padding: 0;
   box-sizing: border-box;
 }
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: var(--color-beige);
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--text-primary);
-  border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--color-blue100);
-}
 body,
 html {
   scroll-behavior: smooth;
   height: 100%;
   width: 100%;
   background-color: var(--color-green800);
+}
+body::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 3);
+  border-radius: 9999px;
 }
 
 li {
@@ -218,7 +210,18 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-green800);
+  background: transparent;
+  z-index: 0;
+}
+.grid-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://github.com/manish45-comp/image-storege/blob/main/noice%20grain.png?raw=true");
+  opacity: 0.02;
   z-index: 0;
 }
 
@@ -241,6 +244,17 @@ section {
   box-shadow: inset 0 0 0 1px #47856e;
   backdrop-filter: blur(15px);
 }
+.cardBg::after {
+  content: "";
+  position: absolute;
+  border-radius: inherit;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.02;
+  background: url("https://github.com/manish45-comp/image-storege/blob/main/noice%20grain.png?raw=true");
+}
+
 .project_card {
   transition: all 0.5s ease-in-out;
   border: 5px solid rgba(255, 255, 255, 0.3);

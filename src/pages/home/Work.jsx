@@ -4,8 +4,13 @@ import CardComponent from "../../Components/common/CardComponent";
 import PageTitle from "../../Components/common/PageTitle";
 import { technologies } from "../../Data/Data";
 import DynamicIsland from "../../Components/common/DynamicIsland";
+import { useEffect } from "react";
+import { scrollToTop } from "../../utils/helper";
 
 const Work = () => {
+  useEffect(() => {
+    scrollToTop();
+  }, []);
   return (
     <>
       <MotionWrapper>

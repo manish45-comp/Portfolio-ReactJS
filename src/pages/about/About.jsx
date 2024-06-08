@@ -50,7 +50,7 @@ const About = () => {
                 <motion.div
                   whileHover={{ scale: 0.9 }}
                   whileTap={{ scale: 1 }}
-                  className="music_container border rounded-xl mt-2 border-gray-500 music flex-1 flex items-center justify-stretch p-2"
+                  className="music_container border rounded-xl mt-2 border-gray-500  flex-1 flex items-center justify-stretch p-2"
                 >
                   <img
                     className="w-20 p-2 img-fluid music-logo"

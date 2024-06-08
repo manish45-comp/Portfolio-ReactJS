@@ -268,7 +268,7 @@ export const ReactProjects = [
       "https://github.com/manish45-comp/image-storege/blob/main/React/qr_generator.png?raw=true",
   },
   {
-    title: "Passwords Generator",
+    title: "Passwords Manager",
     imgLink:
       "https://github.com/manish45-comp/image-storege/blob/main/React/101shots_so.png?raw=true",
   },
